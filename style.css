@@ -883,7 +883,12 @@ h5{
 .bloc-button{
     width: 150px;
 }
-
+label{
+    font-weight: 600;
+}
+.form-label{
+    margin-left: 10px;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -931,20 +936,10 @@ h5{
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: (safe-area-inset-left);
-        padding-right: (safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
-    }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
